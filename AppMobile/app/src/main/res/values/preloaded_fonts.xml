@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sc</item>
+        <item>@font/allerta</item>
+        <item>@font/inder</item>
+        <item>@font/inika</item>
+    </array>
+</resources>
