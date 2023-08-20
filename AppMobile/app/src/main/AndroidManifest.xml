@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AssociationEgeo"
         tools:targetApi="31">
         <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Desenvolvedores"
+            android:exported="false" />
+        <activity
+            android:name=".GuiaMapa"
+            android:exported="false" />
+        <activity
+            android:name=".Historia"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
