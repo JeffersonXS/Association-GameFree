@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+
     public float speed = 5;
     public float waitTime = .3f;
     public float turnSpeed = 90;
+    public float timeToSpotPlayer = .5f;
 
     public Light spotlight;
     public float viewDistance;
     public LayerMask viewMask;
+
     float viewAngle;
+    float playerVisibleTimer;
 
     public Transform pathHolder;
     Transform player;
@@ -31,11 +35,12 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     void Update() {
-        if(CanSeePlayer()){
-            spotlight.color = Color.red;
-        } else {
-            spotlight.color = originalSpotlightColour;
-        }
+        if (CanSeePlayer() && playerVisibleTimer <  timeToSpotPlayer) {
+        playerVisibleTimer += Time.deltaTime;
+    }   else if (!CanSeePlayer() && playerVisibleTimer > 0) {
+        playerVisibleTimer -= Time.deltaTime;
+    }
+        spotlight.color = Color.Lerp (originalSpotlightColour, Color.red, playerVisibleTimer / timeToSpotPlayer);
     }
 
     bool CanSeePlayer(){
@@ -43,7 +48,7 @@ public class NewBehaviourScript : MonoBehaviour
             Vector3 dirToPlayer = (player.position - transform.position).normalized;
             float angleBetweenGuardAndPlayer = Vector3.Angle (transform.forward, dirToPlayer);
             if(angleBetweenGuardAndPlayer < viewAngle / 2f){
-                if(Physics.Linecast(transform.position, player.position, viewMask)){
+                if(!Physics.Linecast(transform.position, player.position, viewMask)){
                     return true;
                 }
             }
