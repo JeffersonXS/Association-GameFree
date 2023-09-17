@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".GuiaMapa"
     android:background="@drawable/gradient_background">
 
-    <TextView
-        android:id="@+id/txtAssociation"
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/imgBtnHomeG"
+            android:layout_width="58dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="155dp"
+            app:srcCompat="@drawable/menu"
+            tools:ignore="ContentDescription,RtlHardcoded,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+        android:id="@+id/txtGuia"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
         android:fontFamily="@font/inder"
         android:gravity="center"
         android:text="@string/guia"
@@ -27,4 +50,127 @@
         app:layout_constraintVertical_bias="0.112"
         tools:ignore="SpUsage" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtMenu"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/imprima"
+        android:gravity="center"
+        android:text="@string/TelaMenu"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@color/app_name"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        tools:ignore="SpUsage" />
+
+    <ImageView
+        android:id="@+id/imgMenu"
+        android:layout_width="264dp"
+        android:layout_height="166dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMenu"
+        app:srcCompat="@drawable/association_egeo"
+        android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/txtDescMenu"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/DesMenu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgMenu"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/txtFase1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/inder"
+            android:text="@string/Fase1"
+            android:textAlignment="center"
+            android:textColor="@color/DarkBlue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/imgBtnFase1"
+            android:layout_width="124dp"
+            android:layout_height="114dp"
+            android:contentDescription="@string/to"
+            app:srcCompat="@drawable/fase1"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/txtFase2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inder"
+            android:text="@string/Fase2"
+            android:textAlignment="center"
+            android:textColor="@color/DarkBlue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/imgBtnFase2"
+            android:layout_width="124dp"
+            android:layout_height="114dp"
+            app:srcCompat="@drawable/fase2"
+            android:contentDescription="@string/full" />
+
+
+        <TextView
+            android:id="@+id/txtFase3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inder"
+            android:text="@string/Fase3"
+            android:textAlignment="center"
+            android:textColor="@color/DarkBlue"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="SpUsage,TextContrastCheck,TextSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imgBtnFase3"
+            android:layout_width="124dp"
+            android:layout_height="114dp"
+            app:srcCompat="@drawable/fase3"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:contentDescription="TODO"
+            app:srcCompat="?android:attr/fastScrollTrackDrawable"
+            tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

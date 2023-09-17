@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="maroon">#800000</color>
     <color name="app_name">#000000</color>
+    <color name="txtProta">#5C0000</color>
+    <color name="BackHis">#717171</color>
+    <color name="DarkBlue">#00008B</color>
 </resources>
