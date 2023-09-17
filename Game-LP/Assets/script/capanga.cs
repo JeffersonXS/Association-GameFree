@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+
     public float speed = 5;
     public float waitTime = .3f;
     public float turnSpeed = 90;
@@ -12,7 +13,9 @@ public class NewBehaviourScript : MonoBehaviour
     public Light spotlight;
     public float viewDistance;
     public LayerMask viewMask;
+
     float viewAngle;
+    float playerVisibleTimer;
 
     public Transform pathHolder;
     Transform player;
@@ -32,11 +35,12 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     void Update() {
-        if(CanSeePlayer()){
-            spotlight.color = Color.red;
-        } else {
-            spotlight.color = originalSpotlightColour;
-        }
+        if (CanSeePlayer() && playerVisibleTimer <  timeToSpotPlayer) {
+        playerVisibleTimer += Time.deltaTime;
+    }   else if (!CanSeePlayer() && playerVisibleTimer > 0) {
+        playerVisibleTimer -= Time.deltaTime;
+    }
+        spotlight.color = Color.Lerp (originalSpotlightColour, Color.red, playerVisibleTimer / timeToSpotPlayer);
     }
 
     bool CanSeePlayer(){
