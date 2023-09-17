@@ -7,6 +7,7 @@ public class NewBehaviourScript : MonoBehaviour
     public float speed = 5;
     public float waitTime = .3f;
     public float turnSpeed = 90;
+    public float timeToSpotPlayer = .5f;
 
     public Light spotlight;
     public float viewDistance;
@@ -43,7 +44,7 @@ public class NewBehaviourScript : MonoBehaviour
             Vector3 dirToPlayer = (player.position - transform.position).normalized;
             float angleBetweenGuardAndPlayer = Vector3.Angle (transform.forward, dirToPlayer);
             if(angleBetweenGuardAndPlayer < viewAngle / 2f){
-                if(Physics.Linecast(transform.position, player.position, viewMask)){
+                if(!Physics.Linecast(transform.position, player.position, viewMask)){
                     return true;
                 }
             }
