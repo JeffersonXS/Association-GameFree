@@ -1,8 +1,80 @@
 <resources>
     <string name="app_name">Association Egeo</string>
-    <string name="historia">HISTÓRIA</string>
+
+
+    <string name="historia">Enredo</string>
+    <string name="txtProta">História do Protagonista</string>
+    <string name="HisProta">Nathan um ex-agente de inteligência renomado, com os seus 25 anos.
+        Acorda em uma sala escura. Sua memória está turva, mas ele lembra claramente de ter sido
+        capturado enquanto investigava atividades suspeitas da Associação Egeo. Nathan analisa a
+        situação e consegue escapar dessa sala.</string>
+
+    <string name="txtEgeo">História da Association Egeo</string>
+
+    <string name="txtHisEgeo">A Associação Egeo teve seu início décadas atrás, foi criada por um
+        grupo de indivíduos ambiciosos e impiedosos, que teve como o primeiro líder um homem chamado
+        Victor, eles se uniram em busca de poder e controle. Eles perceberam que a verdadeira força
+        estava na manipulação das sombras e da informação. A associação começou como uma organização
+        criminosa de pequena escala, mas seu impulso implacável a levou a expandir-se rapidamente.
+        Com o tempo adquiriu influência política, econômica e militar.</string>
+
+
     <string name="guia">GUIA - MAPAS</string>
+    <string name="TelaMenu">Menu</string>
+    <string name="DesMenu">Nosso menu é simples, contendo apenas os seguintes botão: Play,
+        funcionará para iniciar o jogo; Credits, nele contém as informações dos desenvolvedores;
+        Exit Game, vai servir para sair do jogo.</string>
+    <string name="Fase1">1° FASE</string>
+    <string name="Fase2">2° FASE</string>
+    <string name="Fase3">3° FASE</string>
+
     <string name="devs">DESENVOLVEDORES</string>
-    <string name="quiz">QUIZ</string>
+    <string name="Diogo">DIOGO DORTA SILVA</string>
+    <string name="Jeff">JEFFERSON BISPO DA SILVA</string>
+    <string name="DescDevs">Os desenvolvedores dessa aplicação são alunos do 3°ano do ensino médio
+        da escola ETEC Professor Basilides de Godoy</string>
+    <string name="repositorio">REPOSITÓRIO NO GITHUB</string>
+    <string name="escola">LOCALIZAÇÃO DA ESCOLA</string>
+    <string name="Perfil">GitHub dos Desenvolvedores</string>
+    <string name="btnDiogo">Diogo</string>
+    <string name="btnJeff">Jefferson</string>
+
+    <string name="primeira">PRIMEIRA FASE</string>
+    <string name="NomePrimeira">Corredores Sombrios</string>
+    <string name="Desc">Essa fase passa em um local escuro com diversos corredores, no qual o
+        protagonista está tentando fugir da nova associação de elite que tem o objetivo de criar um
+        novo mundo, com uma espécie mais resistente da humanidade.</string>
+    <string name="DescTotal">No entanto, o protagonista deverá encarar muitos capangas dessa
+        associação. O objetivo do jogador nessa fase é conseguir passar pelos corredores da associação,
+        sem ser descoberto pelos inimigos e pegar a chave, que o levará para a próxima fase.</string>
+
+
+    <string name="segunda">SEGUNDA FASE</string>
+    <string name="NomeSegunda">Laboratório Secreto</string>
+    <string name="Descricao">A segunda fase se passa em um laboratório, logo depois que é encontrado a
+        chave da fase anterior. Nela é preciso o jogador achar um mapa que está no início  da fase,
+        também evitar os capangas.</string>
+    <string name="Desc2">Esse mapa da a trajetória mais fácil para o jogador conseguir passar pelos
+        capangas e a localização do botão para abrir uma das duas portas contidas na fase.</string>
+    <string name="ParagrafoFinal">A trajetória o levará para a última fase que será a câmara do
+        núcleo da associação, onde a dificuldade será totalmente diferente de tudo que o jogador
+        passou até agora.</string>
+
+
+    <string name="terceira">TERCEIRA FASE</string>
+    <string name="NomeTerceira">Câmara do Núcleo</string>
+    <string name="paragrafo1">Está é a última fase do jogo, onde o jogador deverá passar por
+        armadilhas e os capangas com lanternas, assim como nas fases anteriores.</string>
+    <string name="paragrafo2">A fase é um ambiente escuro que é díficil enconntrar a localização das
+        armadilhas, mas ao passar por elas o objetivo é destruir o núcleo, para terminar o jogo.</string>
+    <string name="paragrafo3">O cenário contém 5 capangas e 10 armadilhas espalhadas pelo chão.</string>
+
+
+    <string name="todo">TODO</string>
+    <string name="tod">TODO</string>
+    <string name="td">TODO</string>
+    <string name="to">TODO</string>
+    <string name="full">TODO</string>
+    <string name="menuImgBtn">ImgBtn</string>
 
 </resources>

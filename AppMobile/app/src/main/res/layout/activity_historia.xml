@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background"
-    tools:context=".Historia">
+    tools:context=".Historia"
+    tools:ignore="ExtraText">
+
 
     <TextView
-        android:id="@+id/txtAssociation"
+        android:id="@+id/txtGuia"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inder"
@@ -27,4 +29,117 @@
         app:layout_constraintVertical_bias="0.112"
         tools:ignore="SpUsage"/>
 
+    <TextView
+        android:id="@+id/txtProta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="549dp"
+        android:fontFamily="@font/inder"
+        android:gravity="center"
+        android:text="@string/txtProta"
+        android:textAlignment="center"
+        android:textColor="@color/txtProta"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtGuia"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtHisProta"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="489dp"
+        android:fontFamily="@font/inria_sans_bold"
+        android:gravity="center"
+        android:text="@string/HisProta"
+        android:textAlignment="center"
+        android:textColor="#F5F5F5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProta"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+    <TextView
+
+        android:id="@+id/txtEgeo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/inder"
+        android:gravity="center"
+        android:text="@string/txtEgeo"
+        android:textAlignment="center"
+        android:textColor="@color/txtProta"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProta"
+        app:layout_constraintVertical_bias="0.655"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtHisEgeo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/inria_sans_bold"
+        android:gravity="center"
+        android:text="@string/txtHisEgeo"
+        android:textAlignment="center"
+        android:textColor="#F5F5F5"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtProta"
+        app:layout_constraintVertical_bias="0.735"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imgBtnHome"
+        android:layout_width="58dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginBottom="661dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/menu"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" /><![CDATA[
+
+ />
+
+
+
+
+]]>
 </androidx.constraintlayout.widget.ConstraintLayout>

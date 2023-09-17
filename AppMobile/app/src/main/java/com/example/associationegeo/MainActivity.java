@@ -16,33 +16,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.idBtnHis = (Button)this.findViewById(idBtnHis.getId());
+        this.idBtnHis = (Button)this.findViewById(R.id.idBtnHis);
         this.idBtnHis.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 MainActivity.this.openHistoria();
             }
         });
 
-        this.idBtnGuia = (Button)this.findViewById(idBtnGuia.getId());
+        this.idBtnGuia = (Button)this.findViewById(R.id.idBtnGuia);
         this.idBtnGuia.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 MainActivity.this.openGuiaMapa();
             }
         });
 
-        this.idBtnDev = (Button)this.findViewById(idBtnDev.getId());
+        this.idBtnDev = (Button)this.findViewById(R.id.idBtnDev);
         this.idBtnDev.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 MainActivity.this.openDesenvolvedores();
             }
         });
 
-        this.idBtnQuiz = (Button)this.findViewById(idBtnQuiz.getId());
-        this.idBtnQuiz.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                MainActivity.this.openQuiz();
-            }
-        });
 
     }
 
@@ -52,17 +46,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openGuiaMapa() {
-        Intent intent = new Intent(this, Historia.class);
+        Intent intent = new Intent(this, GuiaMapa.class);
         this.startActivity(intent);
     }
 
     private void openDesenvolvedores() {
-        Intent intent = new Intent(this, Historia.class);
+        Intent intent = new Intent(this, Desenvolvedores.class);
         this.startActivity(intent);
     }
 
-    private void openQuiz() {
-        Intent intent = new Intent(this, Historia.class);
-        this.startActivity(intent);
-    }
 }
