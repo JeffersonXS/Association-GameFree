@@ -37,12 +37,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        this.idBtnQuiz = (Button)this.findViewById(R.id.idBtnQuiz);
-        this.idBtnQuiz.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                MainActivity.this.openQuiz();
-            }
-        });
 
     }
 
@@ -61,8 +55,4 @@ public class MainActivity extends AppCompatActivity {
         this.startActivity(intent);
     }
 
-    private void openQuiz() {
-        Intent intent = new Intent(this, Quiz.class);
-        this.startActivity(intent);
-    }
 }
