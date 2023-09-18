@@ -43,5 +43,5 @@ public class Player : MonoBehaviour {
         rigidbody.MoveRotation (Quaternion.Euler (Vector3.up * angle));
         rigidbody.MovePosition (rigidbody.position + velocity * Time.deltaTime); 
     }
- 
+
 }

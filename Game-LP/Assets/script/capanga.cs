@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+
+    public Canvas GameOverCanvas;
 
     public float speed = 5;
     public float waitTime = .3f;
@@ -32,11 +35,21 @@ public class NewBehaviourScript : MonoBehaviour
             waypoints[i] = new Vector3(waypoints[i].x, transform.position.y, waypoints[i].z);
         }
         StartCoroutine (FollowPath (waypoints));
+
+        GameOverCanvas.gameObject.SetActive(false);
+        Time.timeScale = 1f;
+
     }
 
     void Update() {
         if (CanSeePlayer() && playerVisibleTimer <  timeToSpotPlayer) {
         playerVisibleTimer += Time.deltaTime;
+        if (playerVisibleTimer >= timeToSpotPlayer)
+        {
+            GameOverCanvas.gameObject.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
     }   else if (!CanSeePlayer() && playerVisibleTimer > 0) {
         playerVisibleTimer -= Time.deltaTime;
     }
@@ -100,4 +113,5 @@ public class NewBehaviourScript : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay (transform.position, transform.forward * viewDistance);
     }
+
 }
