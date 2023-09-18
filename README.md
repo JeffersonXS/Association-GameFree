@@ -90,4 +90,49 @@ Utilizaremos elementos básicos como:
   * ImageView;
   * Layouts;
   * TextView;
-  * Toolbar, utilizariamos na parte superior da tela para controle de abas.
+  * Vibrator;
+  * String;
+  * ImageButton;
+  * ScrollView.
+
+## LAYOUT DO APP MOBILE
+
+<h1 align= "center" > MENU </h1>
+<h5 align = "center">
+Na tela de menu chamada de "MainActivity" criamos três botões principais, para a criação de cada um, foi utilizado o elemento 'Button', esses botões foram instanciados para o usuário ser enviado às telas de enredo, guia e desenvolvedores. Além disso, ao clicarmos neles nessa tela de menu, o celular vibra por 200 milissegundos, ou seja, 0.2 segundos. O elemento foi o 'Vibrator' que foi instanciado no mesmo lugar para envio de tela. Além de usarmos 'Button', colocamos 'TextView' para o título e nome do nosso app, ou seja, para "Association Egeo". Todos os elementos instanciados na tela, estão na pasta Java-MainActivity.
+</a><h5>
+
+<h1 align="center">
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/0f522df1-0545-4c9c-9d1d-c8403e3ac83c"  height ="550"></a>
+     <br>
+ </h1>
+
+ <h1 align= "center" > ENREDO </h1>
+<h5 align = "center">
+Na tela de enredo chamada de "Historia" usamos apenas 'TextView', 'string' para colocar os textos, isso não foi usado só aqui como em todos os textos que temos no app, e utilizamos 'color' para destacar alguns textos.
+</a><h5>
+
+<h1 align="center">
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/7641e516-8d8b-4789-9c4a-69e5370974ce"  height ="550"></a>
+     <br>
+ </h1>
+
+ <h1 align= "center" > GUIA/MAPAS </h1>
+<h5 align = "center">
+Na tela de enredo chamada de "GuiaMapa" usamos bastante coisas como: 
+</a><h5>
+
+<h1 align="center">
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/26ced9cc-3c90-4e5d-9aee-d387690fee29"  height ="550"></a>
+     <br>
+ </h1>
+
+  <h1 align= "center" > GUIA/MAPAS </h1>
+<h5 align = "center">
+Na tela de enredo chamada de "GuiaMapa" usamos bastante coisas
+</a><h5>
+
+<h1 align="center">
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/6df9f857-c238-410c-a4ab-d57d9c6fdc33"  height ="550"></a>
+     <br>
+ </h1>
