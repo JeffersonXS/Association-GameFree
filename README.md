@@ -82,6 +82,7 @@ Menu do nosso jogo, onde possui três botões, que envia o jogador para a parte 
 
 <h1 align="center">
 <a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/4fead954-f3f1-4be5-bd9d-94005990e705" ></a>
+ <br>
 </h1>
 
 ---
