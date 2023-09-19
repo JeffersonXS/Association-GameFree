@@ -93,7 +93,7 @@ Tela dos créditos do nosso jogo, onde tem o nosso nome completo e o local que f
 </a><br><h5>
 
 <h1 align="center">
-<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/b35949de-07ac-4b76-860f-19c4adc6e050" ></a>
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/b92711bb-bcd5-4f74-802b-bba4ac3ded6b" ></a>
  <br>
 </h1>
 
