@@ -84,7 +84,20 @@ Menu do nosso jogo, onde possui três botões, que envia o jogador para a parte 
 <a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/4fead954-f3f1-4be5-bd9d-94005990e705" ></a>
  <br>
 </h1>
+<br> 
+<br>
+<br>
+<br>
 
+<h1 align= "center" > Credits </h1>
+<h5 align = "center">
+Tela dos créditos do nosso jogo, onde tem o nosso nome completo e o local que foi produzido o projeto.
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/4fead954-f3f1-4be5-bd9d-94005990e705" ></a>
+ <br>
+</h1>
 ---
 # APP MOBILE
 
