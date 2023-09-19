@@ -120,13 +120,26 @@ Se for pego a luz muda para a cor vermelha. Tem um botão de reiniciar para volt
 
 <h1 align= "center" > Pegar a chave </h1>
 <h5 align = "center">
-Para passar de fase, é preciso pegar a chave, que vai ser iluminada por um dos capangas, ao chegar perto dela, você aperta "E" E VAI PARA A OUTRA CENA.
+Para passar de fase, é preciso pegar a chave, que vai ser iluminada por um dos capangas, ao chegar perto dela, você aperta "E" e vai para a outra cena.
 </a><br><h5>
  
 <h1 align="center">
 <a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/af83dd93-2125-4118-97e7-e581e16da311" ></a>
  <br>
 </h1>
+
+
+<h1 align= "center" > Cena 2 </h1>
+
+<h5 align = "center">
+Mesmo esquema da primeira, o que muda é que, para passar de fase, é preciso interagir com a uma parede branca, ao chegar perto dela, você aperta "E" e vai para a última cena.
+</a><br><h5>
+ 
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/2301ca9b-15d6-4bbb-a7cf-a4786a561d57" ></a>
+ <br>
+</h1>
+
 
 ---
 # APP MOBILE
