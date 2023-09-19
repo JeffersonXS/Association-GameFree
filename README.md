@@ -130,7 +130,6 @@ Para passar de fase, é preciso pegar a chave, que vai ser iluminada por um dos 
 
 
 <h1 align= "center" > Cena 2 </h1>
-
 <h5 align = "center">
 Mesmo esquema da primeira, o que muda é que, para passar de fase, é preciso interagir com a uma parede branca, ao chegar perto dela, você aperta "E" e vai para a última cena.
 </a><br><h5>
