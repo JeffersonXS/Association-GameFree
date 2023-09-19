@@ -78,7 +78,7 @@ Recompensa: Ao destruir o dispositivo, o jogador completa sua missão e termina 
 <h1 align= "center" > MENU </h1>
 <h5 align = "center">
 Menu do nosso jogo, onde possui três botões, que envia o jogador para a parte dos créditos, sair do jogo e iniciar o jogo.
-</a><h5>
+</a><br><h5>
 
 <h1>
 <a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/4fead954-f3f1-4be5-bd9d-94005990e705" ></a>
