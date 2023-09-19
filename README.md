@@ -97,6 +97,21 @@ Tela dos créditos do nosso jogo, onde tem o nosso nome completo e o local que f
  <br>
 </h1>
 
+<h1 align= "center" > Cena 1 </h1>
+<h5 align = "center">
+Dando Start, você vai para a primeira cena. Terá 9 capangas, se a lanterna deles te pegar, ele ficará vermelha e você terá que reiniciar o jogo.
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/8d6ef8ed-60ab-49a2-bc33-962509989abf" ></a>
+ <br>
+</h1>
+
+<h1 align= "center" > Pego pela lanterna </h1>
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/15461f6a-bc23-4c2d-b51b-4a6c15334111" ></a>
+ <br>
+</h1>
 
 ---
 # APP MOBILE
