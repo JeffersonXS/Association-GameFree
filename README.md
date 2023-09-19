@@ -118,6 +118,16 @@ Se for pego a luz muda para a cor vermelha. Tem um botão de reiniciar para volt
 </h1>
 
 
+<h1 align= "center" > Pego pela lanterna </h1>
+<h5 align = "center">
+Para passar de fase, é preciso pegar a chave, que vai ser iluminada por um dos capangas, ao chegar perto dela, você aperta "E" E VAI PARA A OUTRA CENA.
+</a><br><h5>
+ 
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/af83dd93-2125-4118-97e7-e581e16da311" ></a>
+ <br>
+</h1>
+
 ---
 # APP MOBILE
 
