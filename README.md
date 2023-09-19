@@ -150,6 +150,29 @@ apertando Esc o jogo pausa e ao apertar o botão Resume, o jogo volta a andar de
  <br>
 </h1>
 
+
+<h1 align= "center" > Cena 3 </h1>
+<h5 align = "center">
+Na última fase, os capangas estão bem mais rápidos e tem muitos na frente do núcleo o protegendo, ao chegar no núcleo, aperte "E" e o player vai para o fim do jogo. O núcleo é o bloco vermelho.
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/957cfbe4-2d23-436f-a954-0aaefb5b6bc5" ></a>
+ <br>
+</h1>
+
+
+<h1 align= "center" > Cena 4 </h1>
+<h5 align = "center">
+ao apertar E no núcleo, o player vai para essa cena, que é o final do jogo e para retornar ao menu, aperte o botão "Return".
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/7cb7b0f0-e682-451e-8f17-0e7ecabb32ff" ></a>
+ <br>
+</h1>
+
+
 ---
 # APP MOBILE
 
