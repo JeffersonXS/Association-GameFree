@@ -108,10 +108,15 @@ Dando Start, você vai para a primeira cena. Terá 9 capangas, se a lanterna del
 </h1>
 
 <h1 align= "center" > Pego pela lanterna </h1>
+<h5 align = "center">
+Se for pego a luz muda para a cor vermelha. Tem um botão de reiniciar para voltar a cena do zero.
+</a><br><h5>
+ 
 <h1 align="center">
-<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/15461f6a-bc23-4c2d-b51b-4a6c15334111" ></a>
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/eaa913f4-35e2-441e-b72c-5e5b903738d9" ></a>
  <br>
 </h1>
+
 
 ---
 # APP MOBILE
