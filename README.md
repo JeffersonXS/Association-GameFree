@@ -139,6 +139,15 @@ Mesmo esquema da primeira, o que muda é que, para passar de fase, é preciso in
  <br>
 </h1>
 
+<h1 align= "center" > Tela de Pause </h1>
+<h5 align = "center">
+apertando Esc o jogo pausa e ao apertar o botão Resume, o jogo volta a andar de novo.
+</a><br><h5>
+ 
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/2d0abfb5-7cca-41e6-8474-2244e99fac31" ></a>
+ <br>
+</h1>
 
 ---
 # APP MOBILE
