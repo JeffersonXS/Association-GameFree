@@ -198,7 +198,7 @@ Utilizaremos elementos básicos como:
 
 ## LAYOUT DO APP MOBILE
 
-<h1 align= "center" > MENU </h1>
+<h3 align= "center" > MENU </h3>
 <h5 align = "center">
 Na tela de menu chamada de "MainActivity" criamos três botões principais, para a criação de cada um, foi utilizado o elemento 'Button', esses botões foram instanciados para o usuário ser enviado às telas de enredo, guia e desenvolvedores. Além disso, ao clicarmos neles nessa tela de menu, o celular vibra por 200 milissegundos, ou seja, 0.2 segundos. O elemento foi o 'Vibrator' que foi instanciado no mesmo lugar para envio de tela. Além de usarmos 'Button', colocamos 'TextView' para o título e nome do nosso app, ou seja, para "Association Egeo". Todos os elementos instanciados na tela, estão na pasta Java-MainActivity.
 </a><h5>
@@ -208,7 +208,7 @@ Na tela de menu chamada de "MainActivity" criamos três botões principais, para
      <br>
  </h1>
 
- <h1 align= "center" > ENREDO </h1>
+ <h3 align= "center" > ENREDO </h3>
 <h5 align = "center">
 Na tela de enredo chamada de "Historia" usamos apenas 'TextView', 'string' para colocar os textos, isso não foi usado só aqui como em todos os textos que temos no app, e utilizamos 'color' para destacar alguns textos.
 </a><h5>
@@ -218,22 +218,40 @@ Na tela de enredo chamada de "Historia" usamos apenas 'TextView', 'string' para 
      <br>
  </h1>
 
- <h1 align= "center" > GUIA/MAPAS </h1>
+ <h3 align= "center" > GUIA/MAPAS </h3>
 <h5 align = "center">
-Na tela de enredo chamada de "GuiaMapa" usamos bastante coisas como: 
+Na tela de guia usamos bastante elementos, como: 'ImageButton', 'ImageView', 'LinearLayout', 'TextView' e 'ScrollView'. O 'ImageButton' colocamos três para ir às fases do jogo e uma casa que liga ao menu, esse "home" está nas telas de "Enredo" e "Desenvolvedores", o "ImageView" tem o a imagem do menu do nosso jogo. 
 </a><h5>
 
 <h1 align="center">
   <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/26ced9cc-3c90-4e5d-9aee-d387690fee29"  height ="550"></a>
-     <br>
  </h1>
-
-  <h1 align= "center" > GUIA/MAPAS </h1>
+ 
 <h5 align = "center">
-Na tela de enredo chamada de "GuiaMapa" usamos bastante coisas
+O 'ScrollView' foi utilizado para poder rolar a tela na vertical e com o auxilio do 'LinearLayout' que deixa tudo organizado e centralizado verticalmente. O 'TextView' usamos na descrição do menu com a utilização de "string" para colocar o texto.  
+</a><h5>
+      <br>
+
+  <h3 align= "center" > FASES DO JOGO </h3>
+<h5 align = "center">
+Nas telas das fases usamos 3 elementos básicos sendo ele: 'ImageButton' para voltar a página anterior, ou seja, a tela "GuiaMapa", o 'ImageView' para mostrar os mapas de cada fase do jogo. E também 'TextView', com o auxilio das strings colocamos as descrições das fases.
 </a><h5>
 
 <h1 align="center">
-  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/6df9f857-c238-410c-a4ab-d57d9c6fdc33"  height ="550"></a>
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/6df9f857-c238-410c-a4ab-d57d9c6fdc33"  height ="550"></a> <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/12ae2fbb-6a0d-4be7-b567-38132f7f0372"  height ="550"></a> <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/d547711d-58e4-43e3-bc4d-6bd835ab99bf"  height ="550"></a>
      <br>
  </h1>
+
+   <h3 align= "center" > DESENVOLVEDORES </h3>
+<h5 align = "center">
+Em "Desenvolvedores" usamos de 'Intent Implicita' para o usuario navegar para fora do app, ou seja, colocamos para ser direcionado ao repositorio do github e nossos perfil. Além de que usamos mais uma 'Intent' em uma 'ImageButton' para abrir a localização da escola ETEC Basilides de Godoy, em algum aplicativo distinto que consiga abrir o gps.  
+</a><h5>
+
+<h1 align="center">
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/add4b9a0-656e-4167-8948-a5ee6cd76ea7"  height ="550"></a>
+     <br>
+ </h1>
+
+ 
+Link de como está o funcionamento do app
+ [ASSOCIATION EGEO](https://youtu.be/7aGEFTqPhj4?si=Eq1JqshmttvJqqbu)
