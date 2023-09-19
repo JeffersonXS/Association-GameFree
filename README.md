@@ -75,7 +75,7 @@ Recompensa: Ao destruir o dispositivo, o jogador completa sua missão e termina 
 ## GAME 
 
 <h1 align="center">
-<a><img src = (https://github.com/JeffersonXS/Association-GameFree/assets/101647390/4fead954-f3f1-4be5-bd9d-94005990e705)></a>
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/4fead954-f3f1-4be5-bd9d-94005990e705" ></a>
 </h1>
 
 ---
