@@ -11,7 +11,15 @@ Diogo Silva Dorta:
 > GitHub [@diogoodorta](https://github.com/diogoodorta) &nbsp;&middot;&nbsp;
 
 ---
+### Links para os vídeos de funcionamento
 
+Link de como está o funcionamento do jogo
+ [ASSOCIATION EGEO-GAME](https://youtu.be/SeGiVzF7K60?si=lsIxVhM-nweLpgkP)
+
+Link de como está o funcionamento do app
+ [ASSOCIATION EGEO](https://youtu.be/7aGEFTqPhj4?si=Eq1JqshmttvJqqbu)
+
+---
 ## PROPOSTA DO JOGO:
 
 A ideia que pensamos é de um jogo no estilo stealth. O mapa/cena não será muito grande e terá uma iluminação mais escura, desafiando ainda mais o jogador a ser cauteloso com suas ações, por toda a cena colocaremos inimigos andando com lanternas. O objetivo do jogador é conseguir passar por esses inimigos sem ser percebido, pegar um item e destruir o núcleo no final do jogo.
@@ -72,6 +80,109 @@ Recompensa: Ao destruir o dispositivo, o jogador completa sua missão e termina 
 * Prefab: Será usado na aparição dos inimigos;
 * "Random Motion": Mecanismos que colocará os inimigos numa movimentação aleatória.
 
+## GAME 
+
+
+<h1 align= "center" > MENU </h1>
+<h5 align = "center">
+Menu do nosso jogo, onde possui três botões, que envia o jogador para a parte dos créditos, sair do jogo e iniciar o jogo.
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/4fead954-f3f1-4be5-bd9d-94005990e705" ></a>
+ <br>
+</h1>
+
+
+<h1 align= "center" > Credits </h1>
+<h5 align = "center">
+
+Tela dos créditos do nosso jogo, onde tem o nosso nome completo e o local que foi produzido o projeto.
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/b92711bb-bcd5-4f74-802b-bba4ac3ded6b" ></a>
+ <br>
+</h1>
+
+<h1 align= "center" > Cena 1 </h1>
+<h5 align = "center">
+Dando Start, você vai para a primeira cena. Terá 9 capangas, se a lanterna deles te pegar, ele ficará vermelha e você terá que reiniciar o jogo.
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/8d6ef8ed-60ab-49a2-bc33-962509989abf" ></a>
+ <br>
+</h1>
+
+<h1 align= "center" > Pego pela lanterna </h1>
+<h5 align = "center">
+Se for pego a luz muda para a cor vermelha. Tem um botão de reiniciar para voltar a cena do zero.
+</a><br><h5>
+ 
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/eaa913f4-35e2-441e-b72c-5e5b903738d9" ></a>
+ <br>
+</h1>
+
+
+<h1 align= "center" > Pegar a chave </h1>
+<h5 align = "center">
+Para passar de fase, é preciso pegar a chave, que vai ser iluminada por um dos capangas, ao chegar perto dela, você aperta "E" e vai para a outra cena.
+</a><br><h5>
+ 
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/af83dd93-2125-4118-97e7-e581e16da311" ></a>
+ <br>
+</h1>
+
+
+<h1 align= "center" > Cena 2 </h1>
+<h5 align = "center">
+Mesmo esquema da primeira, o que muda é que, para passar de fase, é preciso interagir com a uma parede branca, ao chegar perto dela, você aperta "E" e vai para a última cena.
+</a><br><h5>
+ 
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/2301ca9b-15d6-4bbb-a7cf-a4786a561d57" ></a>
+ <br>
+</h1>
+
+
+<h1 align= "center" > Tela de Pause </h1>
+<h5 align = "center">
+apertando Esc o jogo pausa e ao apertar o botão Resume, o jogo volta a andar de novo.
+</a><br><h5>
+ 
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/2d0abfb5-7cca-41e6-8474-2244e99fac31" ></a>
+ <br>
+</h1>
+
+
+<h1 align= "center" > Cena 3 </h1>
+<h5 align = "center">
+Na última fase, os capangas estão bem mais rápidos e tem muitos na frente do núcleo o protegendo, ao chegar no núcleo, aperte "E" e o player vai para o fim do jogo. O núcleo é o bloco vermelho.
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/957cfbe4-2d23-436f-a954-0aaefb5b6bc5" ></a>
+ <br>
+</h1>
+
+
+<h1 align= "center" > Cena 4 </h1>
+<h5 align = "center">
+ao apertar E no núcleo, o player vai para essa cena, que é o final do jogo e para retornar ao menu, aperte o botão "Return".
+</a><br><h5>
+
+<h1 align="center">
+<a><img src = "https://github.com/JeffersonXS/Association-GameFree/assets/101647390/7cb7b0f0-e682-451e-8f17-0e7ecabb32ff" ></a>
+ <br>
+</h1>
+
+Link de como está o funcionamento do jogo
+ [ASSOCIATION EGEO-GAME](https://youtu.be/SeGiVzF7K60?si=lsIxVhM-nweLpgkP)
+ 
 ---
 # APP MOBILE
 
@@ -97,7 +208,7 @@ Utilizaremos elementos básicos como:
 
 ## LAYOUT DO APP MOBILE
 
-<h1 align= "center" > MENU </h1>
+<h3 align= "center" > MENU </h3>
 <h5 align = "center">
 Na tela de menu chamada de "MainActivity" criamos três botões principais, para a criação de cada um, foi utilizado o elemento 'Button', esses botões foram instanciados para o usuário ser enviado às telas de enredo, guia e desenvolvedores. Além disso, ao clicarmos neles nessa tela de menu, o celular vibra por 200 milissegundos, ou seja, 0.2 segundos. O elemento foi o 'Vibrator' que foi instanciado no mesmo lugar para envio de tela. Além de usarmos 'Button', colocamos 'TextView' para o título e nome do nosso app, ou seja, para "Association Egeo". Todos os elementos instanciados na tela, estão na pasta Java-MainActivity.
 </a><h5>
@@ -107,7 +218,7 @@ Na tela de menu chamada de "MainActivity" criamos três botões principais, para
      <br>
  </h1>
 
- <h1 align= "center" > ENREDO </h1>
+ <h3 align= "center" > ENREDO </h3>
 <h5 align = "center">
 Na tela de enredo chamada de "Historia" usamos apenas 'TextView', 'string' para colocar os textos, isso não foi usado só aqui como em todos os textos que temos no app, e utilizamos 'color' para destacar alguns textos.
 </a><h5>
@@ -117,22 +228,40 @@ Na tela de enredo chamada de "Historia" usamos apenas 'TextView', 'string' para 
      <br>
  </h1>
 
- <h1 align= "center" > GUIA/MAPAS </h1>
+ <h3 align= "center" > GUIA/MAPAS </h3>
 <h5 align = "center">
-Na tela de enredo chamada de "GuiaMapa" usamos bastante coisas como: 
+Na tela de guia usamos bastante elementos, como: 'ImageButton', 'ImageView', 'LinearLayout', 'TextView' e 'ScrollView'. O 'ImageButton' colocamos três para ir às fases do jogo e uma casa que liga ao menu, esse "home" está nas telas de "Enredo" e "Desenvolvedores", o "ImageView" tem o a imagem do menu do nosso jogo. 
 </a><h5>
 
 <h1 align="center">
   <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/26ced9cc-3c90-4e5d-9aee-d387690fee29"  height ="550"></a>
-     <br>
  </h1>
-
-  <h1 align= "center" > GUIA/MAPAS </h1>
+ 
 <h5 align = "center">
-Na tela de enredo chamada de "GuiaMapa" usamos bastante coisas
+O 'ScrollView' foi utilizado para poder rolar a tela na vertical e com o auxilio do 'LinearLayout' que deixa tudo organizado e centralizado verticalmente. O 'TextView' usamos na descrição do menu com a utilização de "string" para colocar o texto.  
+</a><h5>
+      <br>
+
+  <h3 align= "center" > FASES DO JOGO </h3>
+<h5 align = "center">
+Nas telas das fases usamos 3 elementos básicos sendo ele: 'ImageButton' para voltar a página anterior, ou seja, a tela "GuiaMapa", o 'ImageView' para mostrar os mapas de cada fase do jogo. E também 'TextView', com o auxilio das strings colocamos as descrições das fases.
 </a><h5>
 
 <h1 align="center">
-  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/6df9f857-c238-410c-a4ab-d57d9c6fdc33"  height ="550"></a>
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/6df9f857-c238-410c-a4ab-d57d9c6fdc33"  height ="550"></a> <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/12ae2fbb-6a0d-4be7-b567-38132f7f0372"  height ="550"></a> <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/d547711d-58e4-43e3-bc4d-6bd835ab99bf"  height ="550"></a>
      <br>
  </h1>
+
+   <h3 align= "center" > DESENVOLVEDORES </h3>
+<h5 align = "center">
+Em "Desenvolvedores" usamos de 'Intent Implicita' para o usuario navegar para fora do app, ou seja, colocamos para ser direcionado ao repositorio do github e nossos perfil. Além de que usamos mais uma 'Intent' em uma 'ImageButton' para abrir a localização da escola ETEC Basilides de Godoy, em algum aplicativo distinto que consiga abrir o gps.  
+</a><h5>
+
+<h1 align="center">
+  <a><img src="https://github.com/JeffersonXS/Association-GameFree/assets/101645699/add4b9a0-656e-4167-8948-a5ee6cd76ea7"  height ="550"></a>
+     <br>
+ </h1>
+
+ 
+Link de como está o funcionamento do app
+ [ASSOCIATION EGEO](https://youtu.be/7aGEFTqPhj4?si=Eq1JqshmttvJqqbu)
