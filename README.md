@@ -11,7 +11,15 @@ Diogo Silva Dorta:
 > GitHub [@diogoodorta](https://github.com/diogoodorta) &nbsp;&middot;&nbsp;
 
 ---
+### Links para os vídeos de funcionamento
 
+Link de como está o funcionamento do jogo
+ [ASSOCIATION EGEO-GAME](https://youtu.be/SeGiVzF7K60?si=lsIxVhM-nweLpgkP)
+
+Link de como está o funcionamento do app
+ [ASSOCIATION EGEO](https://youtu.be/7aGEFTqPhj4?si=Eq1JqshmttvJqqbu)
+
+---
 ## PROPOSTA DO JOGO:
 
 A ideia que pensamos é de um jogo no estilo stealth. O mapa/cena não será muito grande e terá uma iluminação mais escura, desafiando ainda mais o jogador a ser cauteloso com suas ações, por toda a cena colocaremos inimigos andando com lanternas. O objetivo do jogador é conseguir passar por esses inimigos sem ser percebido, pegar um item e destruir o núcleo no final do jogo.
@@ -172,7 +180,9 @@ ao apertar E no núcleo, o player vai para essa cena, que é o final do jogo e p
  <br>
 </h1>
 
-
+Link de como está o funcionamento do jogo
+ [ASSOCIATION EGEO-GAME](https://youtu.be/SeGiVzF7K60?si=lsIxVhM-nweLpgkP)
+ 
 ---
 # APP MOBILE
 
